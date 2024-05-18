@@ -2,7 +2,7 @@ import java.util.Random;
 public class GuessGame {
 
 
-    static Random random = new Random();
+    public static Random random = new Random();
      int guessNumber;
     Player p1 = new Player();
     Player p2 = new Player();
